@@ -1,0 +1,88 @@
+ @font-face { font-family: Turtles; src: url('Turtles.otf'); }
+ @font-face { font-family: Turtles; font-weight: bold; src: url('Turtles.otf'); }
+
+html, body {
+	font-family: Turtles,  Arial, sans-serif;
+	margin: 0;
+
+}
+
+header{
+	
+	padding: 40px;
+	text-align: center;
+}
+
+body {
+	background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+}
+.bakgrund {
+	width: 50px;
+}
+video {
+	width:500px;
+	border-radius:300px;
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	font-size: 90px;
+	color:white;
+}
+
+header img{
+	border-radius: 200px;
+	width:300px;
+	border: 15px solid white;
+
+}
+
+.content {
+	max-width: 588px;
+    margin: 20px auto;
+    
+    padding: 0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 30px;
+	color: white;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+}
+footer ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+a{
+	color: orange;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding:40px 20px;
+	background-color: #E6E6E6;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
